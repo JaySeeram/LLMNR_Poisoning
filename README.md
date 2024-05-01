@@ -16,7 +16,7 @@ The information provided in this project is for educational purposes only. It is
 <p align="center">
 <b>Root User</b>
 <br/>
-  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/GIFs/Multicast.gif" height="80%" width="80%"/>
+  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/GIFs/Multicast.gif" height="40%" width="40%"/>
 <br/>
 <br/>
 </p>
@@ -24,11 +24,5 @@ The information provided in this project is for educational purposes only. It is
 <br>
 
 
-<p align="center">
-<b>Root User</b>
-<br/>
-  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/Render.mp4" height="80%" width="80%"/>
-<br/>
-<br/>
-</p>
+https://github.com/JaySeeram/LLMNR_poisoning/blob/main/Render.mp4
 
