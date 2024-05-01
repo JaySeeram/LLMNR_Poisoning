@@ -16,7 +16,7 @@ The information provided in this project is for educational purposes only. It is
 <p align="center">
 <b>Root User</b>
 <br/>
-  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/GIFs/Multicast.gif" height="100%" width="100%"/>
+  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/GIFs/Multicast.gif" height="950%" width="95%"/>
 <br/>
 <br/>
 </p>
