@@ -42,3 +42,11 @@ And this is how LLMNR poisoning works.
 </p>
 
 ## Practical Demonstration
+
+<p align="center">
+<b>NTLM Hash obtained</b>
+<br/>
+  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/GIFs/Sudo%20Su.gif" height="95%" width="95%"/>
+<br/>
+<br/>
+</p>
