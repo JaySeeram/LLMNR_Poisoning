@@ -13,8 +13,14 @@ The information provided in this project is for educational purposes only. It is
 
 ## How LLMNR poisoning works
 
+Lets say, a user or victim is requesting for any shared drive or folder. The problem here is that, the DNS can't connect to that shared drive because it does not even exist.
+
+So the server replies back saying that the victim cannot connect to that resource. Now the victim multicasts that request to the entire network, in case any other user on the network knows the root to the shared drive.
+
+You can observe in the diagram below, how the victim is multicasting his request to the enitre network. The victim does not know that the attacker is also connected to the network.
+
 <p align="center">
-<b>Root User</b>
+<b>Victim is multicasting the request</b>
 <br/>
   <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/GIFs/Multicast.gif" height="95%" width="95%"/>
 <br/>
