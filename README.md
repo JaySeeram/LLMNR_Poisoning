@@ -21,8 +21,3 @@ The information provided in this project is for educational purposes only. It is
 <br/>
 </p>
 
-<br>
-
-
-https://github.com/JaySeeram/LLMNR_poisoning/blob/main/Render.mp4
-
