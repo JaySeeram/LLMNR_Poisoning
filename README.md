@@ -106,3 +106,31 @@ Before you know it, the attacker has gotten your username and password hash. The
 <br/>
 <br/>
 </p>
+
+<p align="center">
+<b>Password Hash</b>
+<br/>
+  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/PNGs/Password%20Hash.png" height="95%" width="95%"/>
+<br/>
+<br/>
+</p>
+
+#
+
+Copy the password hash and save it into a text file. By using hashcat along with the rockyou.txt wordlist we can crack the password if its not too complex. Execute the following hashcat command:
+```
+hashcat -m 5600 /usr/share/wordlists/rockyou.txt --force
+```
+> **Note** Let's see what this command does
+> `hashcat` this is the name of the program you're executing.
+> `m 5600` this is an argument specifying the hash mode. In this case, mode 5600 corresponds to HMAC-SHA256 (key = $pass, iv = $salt).
+> `/usr/share/wordlists/rockyou.txt` this is the path to the wordlist file being used for password cracking. The file being used here is "rockyou.txt", which is a well-known and commonly used wordlist containing a large number of passwords.
+> `--force` this is an option to force Hashcat to continue despite encountering runtime errors or warnings. It's typically used when you want to override certain safety checks or confirmations.
+
+<p align="center">
+<b>Password Hash</b>
+<br/>
+  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/PNGs/Hashcat.png" height="95%" width="95%"/>
+<br/>
+<br/>
+</p>
