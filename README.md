@@ -43,6 +43,11 @@ And this is how LLMNR poisoning works.
 
 ## Practical Demonstration
 
+Elevate your privileges by executing the following command:
+```
+sudo su
+```
+
 <p align="center">
 <b>NTLM Hash obtained</b>
 <br/>
