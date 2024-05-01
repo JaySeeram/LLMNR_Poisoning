@@ -49,9 +49,19 @@ sudo su
 ```
 
 <p align="center">
-<b>NTLM Hash obtained</b>
+<b>sudo su</b>
 <br/>
   <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/GIFs/Sudo%20Su.gif" height="95%" width="95%"/>
+<br/>
+<br/>
+</p>
+
+#
+
+<p align="center">
+<b>responder -I eth0 -d -w -v</b>
+<br/>
+  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/GIFs/Responder.gif" height="95%" width="95%"/>
 <br/>
 <br/>
 </p>
