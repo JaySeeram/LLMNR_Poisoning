@@ -134,3 +134,23 @@ hashcat -m 5600 /usr/share/wordlists/rockyou.txt --force
 <br/>
 <br/>
 </p>
+
+#
+
+We have successfully cracked the password hash. The plain text password is **password.** This is one reason why not to use weak passwords. There is a high chance that these passwords would be lying wordlists.
+
+<p align="center">
+<b>Password Hash</b>
+<br/>
+  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/PNGs/Decryption.png" height="95%" width="95%"/>
+<br/>
+<br/>
+</p>
+
+#
+
+# Mitigation of LLMNR Poisoning
+- Disable LLMNR
+- Require Network Access Control
+- Implement Network Segmentation
+- Use Strong Passwords
