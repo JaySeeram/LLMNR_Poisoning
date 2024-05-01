@@ -81,4 +81,28 @@ Now it's listening for events. Any request that victim makes now will be capture
 
 #
 
+Now if the victim is trying to access any shared file that does not exist, for example let's say that the victim is looking the shared rseource donut.
 
+Since the resource does not exist, the victim sends out a multicast request. The attacker will capture that request and tell the victim that he knows the path of the resource, give me your username and hash I will connect you with it.
+
+But in reality the attacker stole the credentials and did not connect you with anything, hence the access denied, dialog box.
+
+<p align="center">
+<b>Multicast Request</b>
+<br/>
+  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/PNGs/Multicast%20Request.png" height="95%" width="95%"/>
+<br/>
+<br/>
+</p>
+
+#
+
+Before you know it, the attacker has gotten your username and password hash. The hacker will use his tricks to crack the hash.
+
+<p align="center">
+<b>Multicast Request</b>
+<br/>
+  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/PNGs/Captured%20Credentials.png" height="95%" width="95%"/>
+<br/>
+<br/>
+</p>
