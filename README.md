@@ -27,8 +27,14 @@ You can observe in the diagram below, how the victim is multicasting his request
 <br/>
 </p>
 
+#
+
+Now the attacker will spoof himself as an authorized user and respond back to the victims request with a **name resolution packet** saying that he knows the root of that resource, and asks the victim for his username and hash.
+
+And this is how LLMNR poisoning works.
+
 <p align="center">
-<b>Root User</b>
+<b>NTLM Hash obtained</b>
 <br/>
   <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/GIFs/Harvesting.gif" height="95%" width="95%"/>
 <br/>
