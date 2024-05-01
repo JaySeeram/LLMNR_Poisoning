@@ -13,3 +13,10 @@ The information provided in this project is for educational purposes only. It is
 
 ## How LLMNR poisoning works
 
+<p align="center">
+<b>Root User</b>
+<br/>
+  <img src="https://github.com/JaySeeram/LLMNR_poisoning/blob/main/GIFs/Multicast.gif" height="80%" width="80%"/>
+<br/>
+<br/>
+</p>
