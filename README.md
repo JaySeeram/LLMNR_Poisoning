@@ -58,6 +58,17 @@ sudo su
 
 #
 
+There is a tool that comes pre-installed with kali linux, called **Responder**. We use this tool to capture the multicast request from the victim. So lets run this tool by executing the following command:
+```
+responder -I eth0 -d -w -v
+```
+> **Note** Let's see what this command does
+> 1. `responder` this is the command to run the tool.
+> 2. `-I eth0` this option specifies the network interface (**eth0** in this case) on which responder will listen for network traffic.
+> 3. `-d` this option tell Responder to enable HTTP and SMB Direct Host capture mode. It captures NTLMv1/NTLMv2 challenges and hashes. It also enables the DNS and WPAD spoofers.
+> 4. `-w` this option tells Responder to spawn a web server for drive-by attacks.
+> 5. `-v` this option enables verbose mode, providing more detailed output about the actions being performed by the Responder.
+
 <p align="center">
 <b>responder -I eth0 -d -w -v</b>
 <br/>
