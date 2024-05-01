@@ -76,3 +76,9 @@ responder -I eth0 -d -w -v
 <br/>
 <br/>
 </p>
+
+Now it's listening for events. Any request that victim makes now will be captured here.
+
+#
+
+
